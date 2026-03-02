@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux"
-import { selectCartItems, selectCartTotalPrice, removeFromCart, updateQuantity, clearCart } from "../store/cartSlice"
+import { selectCartItems, selectCartTotalPrice, removeFromCart, updateQuantity, clearCart } from "../store/CartSlicer"
 import { toast } from "react-toastify";
 
 

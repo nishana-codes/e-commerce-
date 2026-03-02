@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useDispatch } from "react-redux"
-import { addToCart } from "../store/cartSlice"
+import { addToCart } from "../store/CartSlicer"
 import { toast } from 'react-toastify';
 
 function ProductCard({ data }) {
